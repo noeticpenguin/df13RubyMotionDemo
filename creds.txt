@@ -1,0 +1,8 @@
+Consumer Key
+3MVG9A2kN3Bn17hsUZHiKXv6UUn36wtG7rPTlcsyH8K4jIUB2O2CU4dHNILQ_6lD_l9uDom7TjTSNEfRUE6PU
+Consumer Secret
+3127667211932263360
+
+org creds
+kjp-rm@codefriar.com
+chap'a eye

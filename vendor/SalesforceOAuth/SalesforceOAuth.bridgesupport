@@ -1,0 +1,290 @@
+<?xml version='1.0'?>
+<signatures version='1.0'>
+<constant name='kSFOAuthDefaultTimeout' const='true' declared_type='NSTimeInterval' type='d'/>
+<constant name='kSFOAuthErrorDomain' const='true' declared_type='NSString*' type='@'/>
+<enum name='SFOAuthTypeRefresh' value='2'/>
+<enum name='SFOAuthTypeUnknown' value='0'/>
+<enum name='SFOAuthTypeUserAgent' value='1'/>
+<enum name='kSFOAuthErrorAccessDenied' value='669'/>
+<enum name='kSFOAuthErrorInactiveOrg' value='675'/>
+<enum name='kSFOAuthErrorInactiveUser' value='674'/>
+<enum name='kSFOAuthErrorInvalidClientCredentials' value='671'/>
+<enum name='kSFOAuthErrorInvalidClientId' value='670'/>
+<enum name='kSFOAuthErrorInvalidGrant' value='672'/>
+<enum name='kSFOAuthErrorInvalidRequest' value='673'/>
+<enum name='kSFOAuthErrorMalformed' value='668'/>
+<enum name='kSFOAuthErrorRateLimitExceeded' value='676'/>
+<enum name='kSFOAuthErrorTimeout' value='667'/>
+<enum name='kSFOAuthErrorUnknown' value='666'/>
+<enum name='kSFOAuthErrorUnsupportedResponseType' value='677'/>
+<enum name='kSFOAuthErrorWrongVersion' value='678'/>
+<enum name='kSFOAuthLogLevelDebug' value='0'/>
+<enum name='kSFOAuthLogLevelError' value='3'/>
+<enum name='kSFOAuthLogLevelInfo' value='1'/>
+<enum name='kSFOAuthLogLevelWarning' value='2'/>
+<class name='NSObject'>
+<method selector='oauthCoordinator:didBeginAuthenticationWithView:'>
+<arg name='coordinator' declared_type='SFOAuthCoordinator*' index='0' type='@'/>
+<arg name='view' declared_type='UIWebView*' index='1' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='oauthCoordinator:didFailWithError:'>
+<arg name='coordinator' declared_type='SFOAuthCoordinator*' index='0' type='@'/>
+<arg name='error' declared_type='NSError*' index='1' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='oauthCoordinator:didFailWithError:authInfo:'>
+<arg name='coordinator' declared_type='SFOAuthCoordinator*' index='0' type='@'/>
+<arg name='error' declared_type='NSError*' index='1' type='@'/>
+<arg name='info' declared_type='SFOAuthInfo*' index='2' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='oauthCoordinator:didFinishLoad:error:'>
+<arg name='coordinator' declared_type='SFOAuthCoordinator*' index='0' type='@'/>
+<arg name='view' declared_type='UIWebView*' index='1' type='@'/>
+<arg name='errorOrNil' declared_type='NSError*' index='2' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='oauthCoordinator:didStartLoad:'>
+<arg name='coordinator' declared_type='SFOAuthCoordinator*' index='0' type='@'/>
+<arg name='view' declared_type='UIWebView*' index='1' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='oauthCoordinator:willBeginAuthenticationWithView:'>
+<arg name='coordinator' declared_type='SFOAuthCoordinator*' index='0' type='@'/>
+<arg name='view' declared_type='UIWebView*' index='1' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='oauthCoordinatorDidAuthenticate:'>
+<arg name='coordinator' declared_type='SFOAuthCoordinator*' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='oauthCoordinatorDidAuthenticate:authInfo:'>
+<arg name='coordinator' declared_type='SFOAuthCoordinator*' index='0' type='@'/>
+<arg name='info' declared_type='SFOAuthInfo*' index='1' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='SFOAuthCoordinator'>
+<method selector='authenticate'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='authenticateWithCredentials:'>
+<arg name='credentials' declared_type='SFOAuthCredentials*' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='credentials'>
+<retval declared_type='SFOAuthCredentials*' type='@'/>
+</method>
+<method selector='delegate'>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='initWithCredentials:'>
+<arg name='credentials' declared_type='SFOAuthCredentials*' index='0' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='isAuthenticating'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='revokeAuthentication'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='scopes'>
+<retval declared_type='NSSet*' type='@'/>
+</method>
+<method selector='setCredentials:'>
+<arg name='credentials' declared_type='SFOAuthCredentials*' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setDelegate:'>
+<arg name='delegate' declared_type='id' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setScopes:'>
+<arg name='scopes' declared_type='NSSet*' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setTimeout:'>
+<arg name='timeout' declared_type='NSTimeInterval' index='0' type='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='stopAuthentication'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='timeout'>
+<retval declared_type='NSTimeInterval' type='d'/>
+</method>
+<method selector='view'>
+<retval declared_type='UIWebView*' type='@'/>
+</method>
+</class>
+<class name='SFOAuthCredentials'>
+<method selector='accessToken'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='activationCode'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='clientId'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='domain'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='identifier'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='identityUrl'>
+<retval declared_type='NSURL*' type='@'/>
+</method>
+<method selector='initWithIdentifier:clientId:encrypted:'>
+<arg name='theIdentifier' declared_type='NSString*' index='0' type='@'/>
+<arg name='theClientId' declared_type='NSString*' index='1' type='@'/>
+<arg name='encrypted' declared_type='BOOL' index='2' type='B'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='instanceUrl'>
+<retval declared_type='NSURL*' type='@'/>
+</method>
+<method selector='isEncrypted'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='issuedAt'>
+<retval declared_type='NSDate*' type='@'/>
+</method>
+<method selector='logLevel'>
+<retval declared_type='SFOAuthLogLevel' type='i'/>
+</method>
+<method selector='organizationId'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='protocol'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='redirectUri'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='refreshToken'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='revoke'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='revokeAccessToken'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='revokeActivationCode'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='revokeRefreshToken'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setAccessToken:'>
+<arg name='accessToken' declared_type='NSString*' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setActivationCode:'>
+<arg name='activationCode' declared_type='NSString*' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setClientId:'>
+<arg name='clientId' declared_type='NSString*' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setDomain:'>
+<arg name='domain' declared_type='NSString*' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setIdentifier:'>
+<arg name='identifier' declared_type='NSString*' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setIdentityUrl:'>
+<arg name='identityUrl' declared_type='NSURL*' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setInstanceUrl:'>
+<arg name='instanceUrl' declared_type='NSURL*' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setIssuedAt:'>
+<arg name='issuedAt' declared_type='NSDate*' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setLogLevel:'>
+<arg name='logLevel' declared_type='SFOAuthLogLevel' index='0' type='i'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setOrganizationId:'>
+<arg name='organizationId' declared_type='NSString*' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setRedirectUri:'>
+<arg name='redirectUri' declared_type='NSString*' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setRefreshToken:'>
+<arg name='refreshToken' declared_type='NSString*' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setUserId:'>
+<arg name='userId' declared_type='NSString*' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='userId'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+</class>
+<class name='SFOAuthInfo'>
+<method selector='authType'>
+<retval declared_type='SFOAuthType' type='i'/>
+</method>
+<method selector='initWithAuthType:'>
+<arg name='authType' declared_type='SFOAuthType' index='0' type='i'/>
+<retval declared_type='id' type='@'/>
+</method>
+</class>
+<informal_protocol name='SFOAuthCoordinatorDelegate'>
+<method selector='oauthCoordinator:didBeginAuthenticationWithView:' type64='v32@0:8@16@24' type='v16@0:4@8@12'>
+<arg name='coordinator' declared_type='SFOAuthCoordinator*' index='0' type='@'/>
+<arg name='view' declared_type='UIWebView*' index='1' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='oauthCoordinator:didFailWithError:' type64='v32@0:8@16@24' type='v16@0:4@8@12'>
+<arg name='coordinator' declared_type='SFOAuthCoordinator*' index='0' type='@'/>
+<arg name='error' declared_type='NSError*' index='1' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='oauthCoordinator:didFailWithError:authInfo:' type64='v40@0:8@16@24@32' type='v20@0:4@8@12@16'>
+<arg name='coordinator' declared_type='SFOAuthCoordinator*' index='0' type='@'/>
+<arg name='error' declared_type='NSError*' index='1' type='@'/>
+<arg name='info' declared_type='SFOAuthInfo*' index='2' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='oauthCoordinator:didFinishLoad:error:' type64='v40@0:8@16@24@32' type='v20@0:4@8@12@16'>
+<arg name='coordinator' declared_type='SFOAuthCoordinator*' index='0' type='@'/>
+<arg name='view' declared_type='UIWebView*' index='1' type='@'/>
+<arg name='errorOrNil' declared_type='NSError*' index='2' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='oauthCoordinator:didStartLoad:' type64='v32@0:8@16@24' type='v16@0:4@8@12'>
+<arg name='coordinator' declared_type='SFOAuthCoordinator*' index='0' type='@'/>
+<arg name='view' declared_type='UIWebView*' index='1' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='oauthCoordinator:willBeginAuthenticationWithView:' type64='v32@0:8@16@24' type='v16@0:4@8@12'>
+<arg name='coordinator' declared_type='SFOAuthCoordinator*' index='0' type='@'/>
+<arg name='view' declared_type='UIWebView*' index='1' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='oauthCoordinatorDidAuthenticate:' type64='v24@0:8@16' type='v12@0:4@8'>
+<arg name='coordinator' declared_type='SFOAuthCoordinator*' index='0' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='oauthCoordinatorDidAuthenticate:authInfo:' type64='v32@0:8@16@24' type='v16@0:4@8@12'>
+<arg name='coordinator' declared_type='SFOAuthCoordinator*' index='0' type='@'/>
+<arg name='info' declared_type='SFOAuthInfo*' index='1' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+</informal_protocol>
+</signatures>

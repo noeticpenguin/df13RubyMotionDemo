@@ -1,0 +1,391 @@
+<?xml version='1.0'?>
+<signatures version='1.0'>
+<constant declared_type='NSInteger' type64='q' name='kMaxSOSLSearchLimit' type='i' const='true'/>
+<constant declared_type='NSString*' name='kSFDefaultRestEndpoint' type='@' const='true'/>
+<constant declared_type='NSString*' name='kSFMobileSDKNativeDesignator' type='@' const='true'/>
+<constant declared_type='NSString*' name='kSFRestDefaultAPIVersion' type='@' const='true'/>
+<constant declared_type='NSInteger' type64='q' name='kSFRestErrorCode' type='i' const='true'/>
+<constant declared_type='NSString*' name='kSFRestErrorDomain' type='@' const='true'/>
+<constant declared_type='NSString*' name='kSOSLEscapeCharacter' type='@' const='true'/>
+<constant declared_type='NSString*' name='kSOSLReservedCharacters' type='@' const='true'/>
+<enum value='3' name='SFRestMethodDELETE'/>
+<enum value='0' name='SFRestMethodGET'/>
+<enum value='4' name='SFRestMethodHEAD'/>
+<enum value='5' name='SFRestMethodPATCH'/>
+<enum value='1' name='SFRestMethodPOST'/>
+<enum value='2' name='SFRestMethodPUT'/>
+<class name='NSObject'>
+<method selector='request:didFailLoadWithError:'>
+<arg declared_type='SFRestRequest*' index='0' name='request' type='@'/>
+<arg declared_type='NSError*' index='1' name='error' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='request:didLoadResponse:'>
+<arg declared_type='SFRestRequest*' index='0' name='request' type='@'/>
+<arg declared_type='id' index='1' name='dataResponse' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='requestDidCancelLoad:'>
+<arg declared_type='SFRestRequest*' index='0' name='request' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='requestDidTimeout:'>
+<arg declared_type='SFRestRequest*' index='0' name='request' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='SFRestAPI'>
+<method class_method='true' selector='SOQLQueryWithFields:sObject:where:groupBy:having:orderBy:limit:'>
+<arg declared_type='NSArray*' index='0' name='fields' type='@'/>
+<arg declared_type='NSString*' index='1' name='sObject' type='@'/>
+<arg declared_type='NSString*' index='2' name='where' type='@'/>
+<arg declared_type='NSArray*' index='3' name='groupBy' type='@'/>
+<arg declared_type='NSString*' index='4' name='having' type='@'/>
+<arg declared_type='NSArray*' index='5' name='orderBy' type='@'/>
+<arg declared_type='NSInteger' index='6' type64='q' name='limit' type='i'/>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='SOQLQueryWithFields:sObject:where:limit:'>
+<arg declared_type='NSArray*' index='0' name='fields' type='@'/>
+<arg declared_type='NSString*' index='1' name='sObject' type='@'/>
+<arg declared_type='NSString*' index='2' name='where' type='@'/>
+<arg declared_type='NSInteger' index='3' type64='q' name='limit' type='i'/>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='SOSLSearchWithSearchTerm:fieldScope:objectScope:limit:'>
+<arg declared_type='NSString*' index='0' name='term' type='@'/>
+<arg declared_type='NSString*' index='1' name='fieldScope' type='@'/>
+<arg declared_type='NSDictionary*' index='2' name='objectScope' type='@'/>
+<arg declared_type='NSInteger' index='3' type64='q' name='limit' type='i'/>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='SOSLSearchWithSearchTerm:objectScope:'>
+<arg declared_type='NSString*' index='0' name='term' type='@'/>
+<arg declared_type='NSDictionary*' index='1' name='objectScope' type='@'/>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='apiVersion'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='coordinator'>
+<retval declared_type='SFOAuthCoordinator*' type='@'/>
+</method>
+<method class_method='true' selector='errorWithDescription:'>
+<arg declared_type='NSString*' index='0' name='description' type='@'/>
+<retval declared_type='NSError*' type='@'/>
+</method>
+<method selector='performCreateWithObjectType:fields:failBlock:completeBlock:'>
+<arg declared_type='NSString*' index='0' name='objectType' type='@'/>
+<arg declared_type='NSDictionary*' index='1' name='fields' type='@'/>
+<arg function_pointer='true' declared_type='SFRestFailBlock' index='2' name='failBlock' type='@?'>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg function_pointer='true' declared_type='SFRestDictionaryResponseBlock' index='3' name='completeBlock' type='@?'>
+<arg declared_type='NSDictionary*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='SFRestRequest*' type='@'/>
+</method>
+<method selector='performDeleteWithObjectType:objectId:failBlock:completeBlock:'>
+<arg declared_type='NSString*' index='0' name='objectType' type='@'/>
+<arg declared_type='NSString*' index='1' name='objectId' type='@'/>
+<arg function_pointer='true' declared_type='SFRestFailBlock' index='2' name='failBlock' type='@?'>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg function_pointer='true' declared_type='SFRestDictionaryResponseBlock' index='3' name='completeBlock' type='@?'>
+<arg declared_type='NSDictionary*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='SFRestRequest*' type='@'/>
+</method>
+<method selector='performDescribeGlobalWithFailBlock:completeBlock:'>
+<arg function_pointer='true' declared_type='SFRestFailBlock' index='0' name='failBlock' type='@?'>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg function_pointer='true' declared_type='SFRestDictionaryResponseBlock' index='1' name='completeBlock' type='@?'>
+<arg declared_type='NSDictionary*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='SFRestRequest*' type='@'/>
+</method>
+<method selector='performDescribeWithObjectType:failBlock:completeBlock:'>
+<arg declared_type='NSString*' index='0' name='objectType' type='@'/>
+<arg function_pointer='true' declared_type='SFRestFailBlock' index='1' name='failBlock' type='@?'>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg function_pointer='true' declared_type='SFRestDictionaryResponseBlock' index='2' name='completeBlock' type='@?'>
+<arg declared_type='NSDictionary*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='SFRestRequest*' type='@'/>
+</method>
+<method selector='performMetadataWithObjectType:failBlock:completeBlock:'>
+<arg declared_type='NSString*' index='0' name='objectType' type='@'/>
+<arg function_pointer='true' declared_type='SFRestFailBlock' index='1' name='failBlock' type='@?'>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg function_pointer='true' declared_type='SFRestDictionaryResponseBlock' index='2' name='completeBlock' type='@?'>
+<arg declared_type='NSDictionary*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='SFRestRequest*' type='@'/>
+</method>
+<method selector='performRequestForResourcesWithFailBlock:completeBlock:'>
+<arg function_pointer='true' declared_type='SFRestFailBlock' index='0' name='failBlock' type='@?'>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg function_pointer='true' declared_type='SFRestDictionaryResponseBlock' index='1' name='completeBlock' type='@?'>
+<arg declared_type='NSDictionary*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='SFRestRequest*' type='@'/>
+</method>
+<method selector='performRequestForVersionsWithFailBlock:completeBlock:'>
+<arg function_pointer='true' declared_type='SFRestFailBlock' index='0' name='failBlock' type='@?'>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg function_pointer='true' declared_type='SFRestDictionaryResponseBlock' index='1' name='completeBlock' type='@?'>
+<arg declared_type='NSDictionary*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='SFRestRequest*' type='@'/>
+</method>
+<method selector='performRetrieveWithObjectType:objectId:fieldList:failBlock:completeBlock:'>
+<arg declared_type='NSString*' index='0' name='objectType' type='@'/>
+<arg declared_type='NSString*' index='1' name='objectId' type='@'/>
+<arg declared_type='NSArray*' index='2' name='fieldList' type='@'/>
+<arg function_pointer='true' declared_type='SFRestFailBlock' index='3' name='failBlock' type='@?'>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg function_pointer='true' declared_type='SFRestDictionaryResponseBlock' index='4' name='completeBlock' type='@?'>
+<arg declared_type='NSDictionary*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='SFRestRequest*' type='@'/>
+</method>
+<method selector='performSOQLQuery:failBlock:completeBlock:'>
+<arg declared_type='NSString*' index='0' name='query' type='@'/>
+<arg function_pointer='true' declared_type='SFRestFailBlock' index='1' name='failBlock' type='@?'>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg function_pointer='true' declared_type='SFRestDictionaryResponseBlock' index='2' name='completeBlock' type='@?'>
+<arg declared_type='NSDictionary*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='SFRestRequest*' type='@'/>
+</method>
+<method selector='performSOSLSearch:failBlock:completeBlock:'>
+<arg declared_type='NSString*' index='0' name='search' type='@'/>
+<arg function_pointer='true' declared_type='SFRestFailBlock' index='1' name='failBlock' type='@?'>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg function_pointer='true' declared_type='SFRestArrayResponseBlock' index='2' name='completeBlock' type='@?'>
+<arg declared_type='NSArray*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='SFRestRequest*' type='@'/>
+</method>
+<method selector='performUpdateWithObjectType:objectId:fields:failBlock:completeBlock:'>
+<arg declared_type='NSString*' index='0' name='objectType' type='@'/>
+<arg declared_type='NSString*' index='1' name='objectId' type='@'/>
+<arg declared_type='NSDictionary*' index='2' name='fields' type='@'/>
+<arg function_pointer='true' declared_type='SFRestFailBlock' index='3' name='failBlock' type='@?'>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg function_pointer='true' declared_type='SFRestDictionaryResponseBlock' index='4' name='completeBlock' type='@?'>
+<arg declared_type='NSDictionary*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='SFRestRequest*' type='@'/>
+</method>
+<method selector='performUpsertWithObjectType:externalIdField:externalId:fields:failBlock:completeBlock:'>
+<arg declared_type='NSString*' index='0' name='objectType' type='@'/>
+<arg declared_type='NSString*' index='1' name='externalIdField' type='@'/>
+<arg declared_type='NSString*' index='2' name='externalId' type='@'/>
+<arg declared_type='NSDictionary*' index='3' name='fields' type='@'/>
+<arg function_pointer='true' declared_type='SFRestFailBlock' index='4' name='failBlock' type='@?'>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg function_pointer='true' declared_type='SFRestDictionaryResponseBlock' index='5' name='completeBlock' type='@?'>
+<arg declared_type='NSDictionary*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='SFRestRequest*' type='@'/>
+</method>
+<method selector='requestForCreateWithObjectType:fields:'>
+<arg declared_type='NSString*' index='0' name='objectType' type='@'/>
+<arg declared_type='NSDictionary*' index='1' name='fields' type='@'/>
+<retval declared_type='SFRestRequest*' type='@'/>
+</method>
+<method selector='requestForDeleteWithObjectType:objectId:'>
+<arg declared_type='NSString*' index='0' name='objectType' type='@'/>
+<arg declared_type='NSString*' index='1' name='objectId' type='@'/>
+<retval declared_type='SFRestRequest*' type='@'/>
+</method>
+<method selector='requestForDescribeGlobal'>
+<retval declared_type='SFRestRequest*' type='@'/>
+</method>
+<method selector='requestForDescribeWithObjectType:'>
+<arg declared_type='NSString*' index='0' name='objectType' type='@'/>
+<retval declared_type='SFRestRequest*' type='@'/>
+</method>
+<method selector='requestForMetadataWithObjectType:'>
+<arg declared_type='NSString*' index='0' name='objectType' type='@'/>
+<retval declared_type='SFRestRequest*' type='@'/>
+</method>
+<method selector='requestForQuery:'>
+<arg declared_type='NSString*' index='0' name='soql' type='@'/>
+<retval declared_type='SFRestRequest*' type='@'/>
+</method>
+<method selector='requestForResources'>
+<retval declared_type='SFRestRequest*' type='@'/>
+</method>
+<method selector='requestForRetrieveWithObjectType:objectId:fieldList:'>
+<arg declared_type='NSString*' index='0' name='objectType' type='@'/>
+<arg declared_type='NSString*' index='1' name='objectId' type='@'/>
+<arg declared_type='NSString*' index='2' name='fieldList' type='@'/>
+<retval declared_type='SFRestRequest*' type='@'/>
+</method>
+<method selector='requestForSearch:'>
+<arg declared_type='NSString*' index='0' name='sosl' type='@'/>
+<retval declared_type='SFRestRequest*' type='@'/>
+</method>
+<method selector='requestForUpdateWithObjectType:objectId:fields:'>
+<arg declared_type='NSString*' index='0' name='objectType' type='@'/>
+<arg declared_type='NSString*' index='1' name='objectId' type='@'/>
+<arg declared_type='NSDictionary*' index='2' name='fields' type='@'/>
+<retval declared_type='SFRestRequest*' type='@'/>
+</method>
+<method selector='requestForUpsertWithObjectType:externalIdField:externalId:fields:'>
+<arg declared_type='NSString*' index='0' name='objectType' type='@'/>
+<arg declared_type='NSString*' index='1' name='externalIdField' type='@'/>
+<arg declared_type='NSString*' index='2' name='externalId' type='@'/>
+<arg declared_type='NSDictionary*' index='3' name='fields' type='@'/>
+<retval declared_type='SFRestRequest*' type='@'/>
+</method>
+<method selector='requestForVersions'>
+<retval declared_type='SFRestRequest*' type='@'/>
+</method>
+<method selector='rkClient'>
+<retval declared_type='RKClient*' type='@'/>
+</method>
+<method class_method='true' selector='sanitizeSOSLSearchTerm:'>
+<arg declared_type='NSString*' index='0' name='searchTerm' type='@'/>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='send:delegate:'>
+<arg declared_type='SFRestRequest*' index='0' name='request' type='@'/>
+<arg declared_type='id' index='1' name='delegate' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='sendRESTRequest:failBlock:completeBlock:'>
+<arg declared_type='SFRestRequest*' index='0' name='request' type='@'/>
+<arg function_pointer='true' declared_type='SFRestFailBlock' index='1' name='failBlock' type='@?'>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='id' index='2' name='completeBlock' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setApiVersion:'>
+<arg declared_type='NSString*' index='0' name='apiVersion' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setCoordinator:'>
+<arg declared_type='SFOAuthCoordinator*' index='0' name='coordinator' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setRkClient:'>
+<arg declared_type='RKClient*' index='0' name='rkClient' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='sharedInstance'>
+<retval declared_type='SFRestAPI*' type='@'/>
+</method>
+<method class_method='true' selector='userAgentString'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+</class>
+<class name='SFRestRequest'>
+<method selector='delegate'>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='endpoint'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='method'>
+<retval declared_type='SFRestMethod' type='i'/>
+</method>
+<method selector='parseResponse'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='path'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='queryParams'>
+<retval declared_type='NSDictionary*' type='@'/>
+</method>
+<method class_method='true' selector='requestWithMethod:path:queryParams:'>
+<arg declared_type='SFRestMethod' index='0' name='method' type='i'/>
+<arg declared_type='NSString*' index='1' name='path' type='@'/>
+<arg declared_type='NSDictionary*' index='2' name='queryParams' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='setDelegate:'>
+<arg declared_type='id' index='0' name='delegate' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setEndpoint:'>
+<arg declared_type='NSString*' index='0' name='endpoint' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setMethod:'>
+<arg declared_type='SFRestMethod' index='0' name='method' type='i'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setParseResponse:'>
+<arg declared_type='BOOL' index='0' name='parseResponse' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setPath:'>
+<arg declared_type='NSString*' index='0' name='path' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setQueryParams:'>
+<arg declared_type='NSDictionary*' index='0' name='queryParams' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<informal_protocol name='SFRestDelegate'>
+<method selector='request:didFailLoadWithError:' type64='v32@0:8@16@24' type='v16@0:4@8@12'>
+<arg declared_type='SFRestRequest*' index='0' name='request' type='@'/>
+<arg declared_type='NSError*' index='1' name='error' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='request:didLoadResponse:' type64='v32@0:8@16@24' type='v16@0:4@8@12'>
+<arg declared_type='SFRestRequest*' index='0' name='request' type='@'/>
+<arg declared_type='id' index='1' name='dataResponse' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='requestDidCancelLoad:' type64='v24@0:8@16' type='v12@0:4@8'>
+<arg declared_type='SFRestRequest*' index='0' name='request' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='requestDidTimeout:' type64='v24@0:8@16' type='v12@0:4@8'>
+<arg declared_type='SFRestRequest*' index='0' name='request' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+</informal_protocol>
+</signatures>

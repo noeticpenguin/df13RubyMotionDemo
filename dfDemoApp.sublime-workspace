@@ -1,0 +1,1634 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"selected",
+				"selectedProducts"
+			],
+			[
+				"qu",
+				"Quantity"
+			],
+			[
+				"pricebo",
+				"Pricebook2"
+			],
+			[
+				"SFR",
+				"SFRestAPI"
+			],
+			[
+				"complete",
+				"completeBlock"
+			],
+			[
+				"make",
+				"makeKeyAndVisible"
+			],
+			[
+				"UIVi",
+				"UIViewController"
+			],
+			[
+				"addSub",
+				"addSubview:"
+			],
+			[
+				"Pro",
+				"Programmatic_Selling"
+			],
+			[
+				"Pla",
+				"Platform_Line_Item__r"
+			],
+			[
+				"mont",
+				"monthlyPercentage"
+			],
+			[
+				"end",
+				"endDate"
+			],
+			[
+				"NumOf",
+				"numOfMonths"
+			],
+			[
+				"mon",
+				"monthSpan"
+			],
+			[
+				"platfor",
+				"Platform_Line_Item__c"
+			],
+			[
+				"pla",
+				"PlatformLineItem__c"
+			],
+			[
+				"Plat",
+				"Platform_Line_Item_Data__c"
+			],
+			[
+				"Pl",
+				"Platform_Line_Item_Data__c"
+			],
+			[
+				"Platform",
+				"platform_line_item__c"
+			],
+			[
+				"Platfor",
+				"platform_line_item__c"
+			],
+			[
+				"pricin",
+				"pricingScheduleLines"
+			],
+			[
+				"pro",
+				"Promotion__c"
+			],
+			[
+				"bran",
+				"Brands__c"
+			],
+			[
+				"Bran",
+				"Brands__c"
+			],
+			[
+				"sk",
+				"Sku__c"
+			],
+			[
+				"in",
+				"insert"
+			],
+			[
+				"pr",
+				"Promotion__c"
+			],
+			[
+				"com",
+				"compactView"
+			],
+			[
+				"cop",
+				"compactView"
+			],
+			[
+				"filte",
+				"filterExp"
+			],
+			[
+				"new",
+				"newDate"
+			],
+			[
+				"Test",
+				"TestUtils"
+			],
+			[
+				"Deal",
+				"DealBuilderExt"
+			],
+			[
+				"fie",
+				"fieldset"
+			],
+			[
+				"return",
+				"returnObject"
+			],
+			[
+				"Flat",
+				"Flat_Fee_to_Display__c"
+			],
+			[
+				"target",
+				"targetType"
+			],
+			[
+				"SOb",
+				"SObject"
+			],
+			[
+				"inc",
+				"incomingFieldJsonObject"
+			],
+			[
+				"fieldma",
+				"fieldMapList"
+			],
+			[
+				"plat",
+				"Platform_Line_Item__c"
+			],
+			[
+				"line",
+				"lineItem"
+			],
+			[
+				"to",
+				"toggleShowHide"
+			],
+			[
+				"In",
+				"Inventory_Type__c"
+			],
+			[
+				"Ser",
+				"Service_Type__c"
+			],
+			[
+				"lineItemFiel",
+				"lineItemFieldsetString"
+			],
+			[
+				"Rec",
+				"RecordTypeID"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"title",
+				"title-group"
+			],
+			[
+				"G",
+				"Group__c"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"set",
+				"setPublicLibraryItems"
+			],
+			[
+				"added",
+				"addedIds"
+			],
+			[
+				"existing",
+				"existingIds"
+			],
+			[
+				"existin",
+				"existingIds"
+			],
+			[
+				"dropped",
+				"droppedOnObject"
+			],
+			[
+				"Applie",
+				"Applied_Component__c"
+			],
+			[
+				"mar",
+				"marginCollection"
+			],
+			[
+				"hid",
+				"hiddenfields"
+			],
+			[
+				"details",
+				"details_hidden"
+			],
+			[
+				"field",
+				"fieldPath"
+			],
+			[
+				"linI",
+				"lineItemFieldset"
+			],
+			[
+				"lineIt",
+				"lineItemFieldset"
+			],
+			[
+				"label",
+				"labelOverride"
+			],
+			[
+				"from",
+				"fromClause"
+			],
+			[
+				"fields",
+				"fieldSetName"
+			],
+			[
+				"lin",
+				"lineItem"
+			],
+			[
+				"clon",
+				"clonedLibraryItemId"
+			],
+			[
+				"clone",
+				"clonedLibFields"
+			],
+			[
+				"update",
+				"updateFields"
+			],
+			[
+				"LIb",
+				"Library_Item__c"
+			],
+			[
+				"dragg",
+				"draggedObject"
+			],
+			[
+				"get",
+				"getName"
+			],
+			[
+				"result",
+				"results"
+			],
+			[
+				"group",
+				"groupIdSet"
+			],
+			[
+				"librar",
+				"libraryItemFields"
+			],
+			[
+				"Lib",
+				"Library_Item__c"
+			],
+			[
+				"L",
+				"Library_Item__c"
+			],
+			[
+				"drop",
+				"droppedOnObject"
+			],
+			[
+				"addedc",
+				"addedComponentContainer"
+			],
+			[
+				"open",
+				"openMessageBox"
+			],
+			[
+				"create",
+				"createdContainerId"
+			],
+			[
+				"Compon",
+				"Component_Container__c"
+			],
+			[
+				"obj",
+				"objType"
+			],
+			[
+				"ob",
+				"objName"
+			],
+			[
+				"sele",
+				"selectedComponents"
+			],
+			[
+				"failure",
+				"failureCallback"
+			],
+			[
+				"select",
+				"SelectData"
+			],
+			[
+				"Se",
+				"Select2Data"
+			],
+			[
+				"Pick",
+				"picklistValues"
+			],
+			[
+				"me",
+				"Media_Type__c"
+			],
+			[
+				"Compn",
+				"Component__r"
+			],
+			[
+				"oppid",
+				"OppId"
+			],
+			[
+				"drag",
+				"draggedObject"
+			],
+			[
+				"need",
+				"neededInitiativeNamesList"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"IOP",
+				"IOProduct__c"
+			],
+			[
+				"IO",
+				"IOProduct__c"
+			],
+			[
+				"Cas",
+				"CascadeInsertId__c"
+			],
+			[
+				"strat",
+				"strategy__c"
+			],
+			[
+				"cloned",
+				"clonedFlight"
+			],
+			[
+				"App",
+				"AppliedFLStrategy__c"
+			],
+			[
+				"Ap",
+				"AppliedFLStrategy__c"
+			],
+			[
+				"Applied",
+				"AppliedFLStrategy__c"
+			],
+			[
+				"io",
+				"ioproduct__c"
+			],
+			[
+				"place",
+				"placementDetails"
+			],
+			[
+				"placement",
+				"PlacementFieldsetSize"
+			],
+			[
+				"placem",
+				"PlacementFieldsetSize"
+			],
+			[
+				"Place",
+				"PlacementFieldsetSize"
+			],
+			[
+				"Fields",
+				"FieldSetMember"
+			],
+			[
+				"fi",
+				"fieldsetSize"
+			],
+			[
+				"remo",
+				"RemoteAction"
+			],
+			[
+				"sub",
+				"subObjQueryString"
+			],
+			[
+				"query",
+				"queryString"
+			],
+			[
+				"bs-bt",
+				"bs-btn-group"
+			],
+			[
+				"stra",
+				"strategyId"
+			],
+			[
+				"C",
+				"Category__c"
+			],
+			[
+				"newStrat",
+				"newStrategy"
+			],
+			[
+				"opp",
+				"opportunityId"
+			],
+			[
+				"fls_for",
+				"fls_for_flight"
+			],
+			[
+				"pjax",
+				"pjaxLoadPlacementFieldsetDetails"
+			],
+			[
+				"commandbu",
+				"commandsButtons"
+			],
+			[
+				"st",
+				"strategy"
+			],
+			[
+				"pls",
+				"plsId"
+			],
+			[
+				"not",
+				"Notes__c"
+			],
+			[
+				"Crea",
+				"Creative__c"
+			],
+			[
+				"Data",
+				"DataProduct__c"
+			],
+			[
+				"Name",
+				"NameToId"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"resour",
+				"MavensMate: Create Resource Bundle"
+			],
+			[
+				"resou",
+				"MavensMate: Create Resource Bundle"
+			],
+			[
+				"page",
+				"MavensMate: New Visualforce Page"
+			],
+			[
+				"clas",
+				"MavensMate: New Apex Class"
+			],
+			[
+				"tests",
+				"MavensMate: Run Apex Tests"
+			],
+			[
+				"apex",
+				"MavensMate: New Apex Trigger"
+			],
+			[
+				"apexcla",
+				"MavensMate: New Apex Class"
+			],
+			[
+				"class",
+				"MavensMate: New Apex Class"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"gist",
+				"Gist: Create Private Gist"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"depl",
+				"RubyMotionBuilder: Deploy"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"deploy",
+				"MavensMate: Deploy To Server"
+			],
+			[
+				"dep",
+				"MavensMate: Deploy Resource Bundle"
+			],
+			[
+				"resor",
+				"MavensMate: Create Resource Bundle"
+			],
+			[
+				"visualforce",
+				"MavensMate: New Visualforce Page"
+			],
+			[
+				"visualfor",
+				"MavensMate: New Visualforce Page"
+			],
+			[
+				"visual",
+				"MavensMate: New Visualforce Page"
+			],
+			[
+				"apex ",
+				"MavensMate: New Apex Class"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"mini",
+				"Minify Javascript to file"
+			],
+			[
+				"min",
+				"Minify Javascript to file"
+			],
+			[
+				"minify",
+				"Minify Javascript to file"
+			],
+			[
+				"minif",
+				"Minify Javascript to file"
+			],
+			[
+				"compon",
+				"MavensMate: New Visualforce Component"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git",
+				"Git: Add..."
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"jas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"web",
+				"Web Inspector"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"dpel",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"deple",
+				"MavensMate: Deploy Resource Bundle"
+			],
+			[
+				"depll",
+				"MavensMate: Deploy Resource Bundle"
+			],
+			[
+				"de",
+				"MavensMate: Deploy To Server"
+			],
+			[
+				"deplo",
+				"MavensMate: Deploy Resource Bundle"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"deplol",
+				"MavensMate: Deploy Resource Bundle"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"source",
+				"SourceTree: Open SourceTree"
+			],
+			[
+				"javascript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"resour	",
+				"MavensMate: Create Resource Bundle"
+			],
+			[
+				"resoue",
+				"MavensMate: Create Resource Bundle"
+			],
+			[
+				"resourc",
+				"MavensMate: Create Resource Bundle"
+			],
+			[
+				"apextes",
+				"MavensMate: Run Apex Tests"
+			],
+			[
+				"apex test",
+				"MavensMate: Run Apex Tests"
+			],
+			[
+				"apex cla",
+				"MavensMate: New Apex Class"
+			],
+			[
+				"run tests",
+				"MavensMate: Run Apex Tests"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"depol",
+				"MavensMate: Deploy Resource Bundle"
+			],
+			[
+				"visu",
+				"MavensMate: New Visualforce Page"
+			],
+			[
+				"jav",
+				"Set Syntax: Java"
+			],
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"depk",
+				"Package Control: Disable Package"
+			],
+			[
+				"deol",
+				"MavensMate: Deploy Resource Bundle"
+			],
+			[
+				"deply",
+				"RubyMotionBuilder: Deploy"
+			],
+			[
+				"deplou",
+				"MavensMate: Deploy Resource Bundle"
+			],
+			[
+				"indet",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"VISUA",
+				"MavensMate: New Visualforce Page"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"deployu",
+				"MavensMate: Deploy Resource Bundle"
+			],
+			[
+				"ji",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javascri",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javascrip",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"GIST",
+				"Gist: Create Private Gist"
+			],
+			[
+				"epl",
+				"Emmet: Split\\Join Tag"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"git gui",
+				"Git: Gui"
+			],
+			[
+				"visualf",
+				"MavensMate: New Visualforce Page"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"vis",
+				"MavensMate: New Visualforce Page"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"deo",
+				"MavensMate: Deploy Resource Bundle"
+			],
+			[
+				"snipp table",
+				"Snippet: Bootstrap tabbable navigation tabs"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"del",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"visualcom",
+				"MavensMate: New Visualforce Component"
+			],
+			[
+				"visualfor page",
+				"MavensMate: New Visualforce Page"
+			],
+			[
+				"snippet dire",
+				"Snippet: directive"
+			],
+			[
+				"resource",
+				"MavensMate: Create Resource Bundle"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"indent",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"apexc",
+				"MavensMate: New Apex Class"
+			],
+			[
+				"apex cl",
+				"MavensMate: New Apex Class"
+			],
+			[
+				"visual page",
+				"MavensMate: New Visualforce Page"
+			],
+			[
+				"visua",
+				"MavensMate: New Visualforce Page"
+			],
+			[
+				"visualfopag",
+				"MavensMate: New Visualforce Page"
+			],
+			[
+				"apexcl",
+				"MavensMate: New Apex Class"
+			],
+			[
+				"mavens new ape",
+				"MavensMate: New Apex Class"
+			],
+			[
+				"DEPL",
+				"MavensMate: Deploy Resource Bundle"
+			],
+			[
+				"reinden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Dep",
+				"MavensMate: Deploy Resource Bundle"
+			],
+			[
+				"deployl",
+				"MavensMate: Deploy Resource Bundle"
+			],
+			[
+				"detail",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ddepl",
+				"RubyMotionBuilder: Deploy"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"place",
+				"Package Control: Add Channel"
+			],
+			[
+				"deplo reso",
+				"MavensMate: Deploy Resource Bundle"
+			],
+			[
+				"package contro up",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"package control rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"deploy ",
+				"MavensMate: Deploy Resource Bundle"
+			],
+			[
+				"resou de",
+				"MavensMate: Deploy Resource Bundle"
+			],
+			[
+				"resource d",
+				"MavensMate: Deploy Resource Bundle"
+			],
+			[
+				"dep res",
+				"MavensMate: Deploy Resource Bundle"
+			],
+			[
+				"deployre",
+				"MavensMate: Deploy Resource Bundle"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"tidy",
+				"Tidy HTML"
+			],
+			[
+				"create",
+				"MavensMate: Create Resource Bundle"
+			],
+			[
+				"bea",
+				"BeautifyRuby"
+			],
+			[
+				"b",
+				"BeautifyRuby"
+			],
+			[
+				"",
+				"BeautifyRuby"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 102.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kpoorman/src/ngForce/creds.txt",
+		"/Users/kpoorman/Documents/mavensmate/nyc-cct/src/classes/jquery_minihack.cls",
+		"/Users/kpoorman/Documents/mavensmate/nyc-cct/src/pages/jQuery_minihack.page",
+		"/Users/kpoorman/Documents/mavensmate/nyc-cct/src/classes/HerokuService.cls",
+		"/Users/kpoorman/Documents/mavensmate/nyc-cct/src/classes/testPushContactToHerokuService.cls",
+		"/Users/kpoorman/Documents/mavensmate/nyc-cct/src/classes/WebCalloutWrapper.cls",
+		"/Users/kpoorman/Documents/mavensmate/nyc-cct/src/triggers/PushContactToHerokuService.trigger",
+		"/Users/kpoorman/src/futz/mobileAdmin2/vendor/Salesforce/native/SalesforceSDK/SalesforceSDK/Classes/SFRestAPI.h",
+		"/Users/kpoorman/src/futz/mobileAdmin2/vendor/Salesforce/native/SalesforceSDK/SalesforceSDK/Classes/SFRestAPI+Blocks.h",
+		"/Users/kpoorman/src/futz/mobileAdmin2/vendor/Salesforce/native/SalesforceSDK/SalesforceSDK/Classes/SFRestAPI.m",
+		"/Users/kpoorman/src/futz/mobileAdmin2/vendor/Salesforce/native/SalesforceSDK/SalesforceSDK/Classes/SFRestAPI+Blocks.m",
+		"/Users/kpoorman/src/futz/mobileAdmin2/vendor/Salesforce/native/SalesforceSDK/SalesforceSDK/Classes/SFRestAPI+Internal.h",
+		"/Users/kpoorman/src/futz/mobileAdmin2/vendor/Salesforce/native/SalesforceSDK/SalesforceSDK/Classes/SFRestRequest.m",
+		"/Users/kpoorman/src/futz/mobileAdmin2/app/controllers/RootViewController.rb",
+		"/Users/kpoorman/src/futz/mobileAdmin2/vendor/Salesforce/native/SalesforceSDK/SalesforceSDK/BridgeSupport.bridgesupport",
+		"/Users/kpoorman/src/futz/mobileAdmin2/.dat030b.000",
+		"/Users/kpoorman/src/futz/mobileAdmin2/Madrona_Dynamcis_Bi_Demo.mobileprovision",
+		"/Users/kpoorman/src/futz/mobileAdmin2/app/app_delegate.rb",
+		"/Users/kpoorman/src/futz/mobileAdmin2/vendor/Salesforce/native/SalesforceOAuth/SalesforceOAuth/Classes/SFOAuthCredentials.h",
+		"/Users/kpoorman/src/futz/mobileAdmin2/vendor/Salesforce/native/SalesforceOAuth/SalesforceOAuth/Classes/SFOAuthCredentials.m",
+		"/Users/kpoorman/src/futz/mobileAdmin2/vendor/Salesforce/native/SalesforceOAuth/SalesforceOAuth/Classes/SFOAuthCoordinator.m",
+		"/Users/kpoorman/src/futz/mobileAdmin2/app/UserCacheResult.rb",
+		"/Users/kpoorman/src/futz/mobileAdmin2/app/testflight_launcher.rb",
+		"/Users/kpoorman/src/futz/mobileAdmin2/app/string.rb",
+		"/Users/kpoorman/src/promotionWithSalesforce/Rakefile",
+		"/Users/kpoorman/src/promotionWithSalesforce/vendor/Salesforce/dist/SalesforceOAuth/SalesforceOAuth-Release.zip",
+		"/Users/kpoorman/.zshrc",
+		"/Users/kpoorman/Documents/mavensmate/adap Sandbox/src/triggers/UpdateManagedPricingSchedule.trigger",
+		"/Users/kpoorman/Documents/mavensmate/adap Sandbox/src/classes/AdapConsoleIntegration.cls",
+		"/Users/kpoorman/Documents/mavensmate/adap Sandbox/src/pages/priceScheduleTemplate.page",
+		"/Users/kpoorman/Documents/mavensmate/adap Sandbox/resource-bundles/cs.resource/ng/controllers/priceScheduleCtrl.js",
+		"/Users/kpoorman/Documents/mavensmate/adap Sandbox/resource-bundles/cs.resource/ng/services/tk.js",
+		"/Users/kpoorman/Documents/mavensmate/adap Sandbox/src/pages/DealBuilderPlatform.page",
+		"/Users/kpoorman/Documents/mavensmate/adap Sandbox/resource-bundles/cs.resource/ng/controllers/rightSideCtrl.js",
+		"/Users/kpoorman/Documents/mavensmate/adap Sandbox/resource-bundles/cs.resource/ng/controllers/platformLineItemCtrl.js",
+		"/Users/kpoorman/Documents/mavensmate/adap Sandbox/src/classes/AdapConsoleIntegration_TEST.cls",
+		"/Users/kpoorman/Documents/mavensmate/adap Sandbox/src/classes/adapApiPushExt_TEST.cls",
+		"/Users/kpoorman/Documents/mavensmate/adap Sandbox/src/classes/adapApiPushExt.cls",
+		"/Users/kpoorman/Documents/mavensmate/adap Sandbox/src/classes/AccountStatusChangeController.cls",
+		"/Users/kpoorman/Documents/mavensmate/adap Sandbox/src/pages/AccountStatusChange.page",
+		"/Users/kpoorman/Documents/Dreamforce 13 CFP - Rubymotion.txt",
+		"/Users/kpoorman/Documents/Dreamforce 13 CFP - Angular.txt",
+		"/Users/kpoorman/Documents/mavensmate/adap Sandbox/resource-bundles/cs.resource/ng/controllers/groupCtrl.js",
+		"/Users/kpoorman/Documents/mavensmate/adap Sandbox/resource-bundles/cs.resource/ng/controllers/dragNdropCtrl.js",
+		"/Users/kpoorman/Documents/mavensmate/adap Sandbox/src/components/RemoteTK.component",
+		"/Users/kpoorman/Documents/mavensmate/adap Sandbox/src/classes/PricingScheduleUtils.cls",
+		"/Users/kpoorman/Documents/mavensmate/adap Sandbox/src/pages/SwitchTemplate.page",
+		"/Users/kpoorman/Dropbox/Apps/SublimeText/Packages/MavensMate/mavensmate.sublime-settings",
+		"/Users/kpoorman/Dropbox/Apps/SublimeText/Packages/User/mavensmate.sublime-settings",
+		"/Users/kpoorman/Documents/mavensmate/CloudColaMobileApp/src/package.xml",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/src/components/ngforce.component",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/resource-bundles/ngForce.resource/ngForce/directives/oppBox.js",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/resource-bundles/ngForce.resource/ngForce/controllers/oppDetailsCtrl.min.js",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/resource-bundles/ngForce.resource/ngForce/controllers/oppBoxCtrl.min.js",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/resource-bundles/ngForce.resource/ngForce/controllers/navCtrl.js",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/resource-bundles/ngForce.resource/ngForce/controllers/navCtrl.min.js",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/resource-bundles/ngForce.resource/ngForce/controllers/oppBoxCtrl.js",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/resource-bundles/ngForce.resource/ngForce/controllers/oppDetailsCtrl.js",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/resource-bundles/ngForce.resource/ngForce/directives/oppBox.min.js",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/resource-bundles/ngForce.resource/ngForce/directives/oppDetails.min.js",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/resource-bundles/ngForce.resource/ngForce/js/log.min.js",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/resource-bundles/ngForce.resource/ngForce/js/ui-bootstrap-tpls-0.3.0.min.js",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/resource-bundles/ngForce.resource/ngForce/css/bootstrap-custom.css",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/resource-bundles/ngForce.resource/ngForce/services/ngForce.js",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/resource-bundles/ngForce.resource/ngForce/services/ngForce.min.js",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/src/classes/RemoteTKController.cls",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/src/components/ngForceController.component",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/src/pages/oppDetailsTmpl.page",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/src/pages/oppDetail.page",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/resource-bundles/ngForce.resource/ngForce/ngForceDemoApp.js",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/resource-bundles/ngForce.resource/ngForce/directives/oppDetails.js",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/resource-bundles/ngForce.resource/ngForce/js/ui-bootstrap-tpls-0.3.0.js",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/resource-bundles/ngForce.resource/ngForce/js/angular-ui.min.js",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/src/pages/ngForceDemo.page",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/src/package.xml",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/src/pages/ngForceDemo.page-meta.xml",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/resource-bundles/ngForce.resource/ngForce/js/angular.min.js",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/resource-bundles/ngForce.resource/ngForce/js/log.js",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/src/components/RemoteTK.component",
+		"/Users/kpoorman/Documents/mavensmate/NgForce/resource-bundles/LABJS_Angular.resource/angular105/angular-resource.min.js",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/pages/lineItemTemplate.page",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/classes/preferedSpendingOptions.cls",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/classes/SelectOptionsCtrl.cls",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/classes/selectOptionsCtrl_TEST.cls",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/classes/preferredSpendingOptions_TEST.cls",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/classes/DealBuilderExt_TEST.cls",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/classes/DealBuilderExt.cls",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/pages/DealBuilderPlatform.page",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/pages/dealBuilder.page",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/pages/priceScheduleTemplate.page-meta.xml",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/pages/groupDirectiveTemplate.page",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/resource-bundles/cs.resource/ng/controllers/groupCtrl.js",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/resource-bundles/cs.resource/ng/controllers/dragNdropCtrl.js",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/resource-bundles/cs.resource/ng/dealBuilder.js",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/resource-bundles/cs.resource/ng/controllers/platformLineItemCtrl.js",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/pages/platformLineItemTemplate.page",
+		"/Users/kpoorman/Downloads/ComponentProviderName.csv",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/config/.settings",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/pages/Start_Here.page",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/classes/startHereController.cls",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/resource-bundles/cs.resource/ng/services/tk.js",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/pages/priceScheduleTemplate.page",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/resource-bundles/cs.resource/ng/controllers/priceScheduleCtrl.js",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/resource-bundles/cs.resource/ng/controllers/groupLevelComponentCtrl.js",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/resource-bundles/cs.resource/ng/directives/xeditable.js",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/pages/psaTPL.page",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/resource-bundles/cs.resource/ng/directives/psa.js",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/resource-bundles/cs.resource/ng/controllers/psaCtrl.js",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/pages/preferredSpendingOptions.page",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/pages/SelectOptions.page",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/pages/newPlatformLineItemModal.page",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/resource-bundles/cs.resource/ng/directives/platformLineItem.js",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/resource-bundles/cs.resource/ng/directives/groupLevelComponents.js",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/resource-bundles/cs.resource/ng/directives/group.js",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/resource-bundles/cs.resource/js/log.js",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/resource-bundles/cs.resource/ng/directives/priceschedule.js",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/resource-bundles/cs.resource/ng/controllers/appliedComponentCtrl.js",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/resource-bundles/cs.resource/ng/controllers/componentContainerCtrl.js",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/resource-bundles/cs.resource/ng/directives/componentContainer.js",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/pages/addComponentTemplate.page-meta.xml",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/resource-bundles/cs.resource/ng/controllers/lineItemCtrl.js",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/classes/RemoteTKController.cls",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/components/RemoteTK.component",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/resource-bundles/cs.resource/js/jquery-1.9.1.min.js",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/resource-bundles/cs.resource/ng/controllers/rightSideCtrl.js",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/pages/oppDetail.page",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/pages/myLibrary.page",
+		"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/pages/publicLibrary.page"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<project>",
+			"*.js",
+			"/Users/kpoorman/Documents/mavensmate/AngularAdaptv/src/pages",
+			"<project>",
+			"/Users/kpoorman/Documents/mavensmate/AngularAdaptv",
+			"<project>",
+			"/Users/kpoorman/Documents/mavensmate/AngularAdaptv",
+			"<project>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"query",
+			"safeapply",
+			",",
+			"@hud",
+			"perform",
+			"*decidePolicyForNavigationAction*",
+			"decidePolicyForNavigationAction",
+			"UIDevice",
+			"currentDevice",
+			"macaddress",
+			"pro",
+			"''",
+			"Notification_Contact__C",
+			"updateTotal",
+			"endDate",
+			"Calculated_Impressions_Needed__c",
+			"Brands__c",
+			"vfRemote",
+			"cfRemote",
+			"btn-",
+			"}', ",
+			"{!$RemoteAction.",
+			"vfr.Client.",
+			".prototype.",
+			"remotetk",
+			"{!RecordType",
+			"\\t.*",
+			"*",
+			"unmanaged",
+			"log(",
+			"groupId",
+			"objId",
+			"$scope.psa",
+			"fieldMap",
+			"key",
+			"row",
+			"key",
+			"fieldmaplist",
+			"odd",
+			"pricingStruct",
+			"ng-show=",
+			"\"...\"(?)",
+			"\"...\"{1}",
+			"Line_Item__c",
+			"</option>",
+			"widemodal",
+			"getBoundingClientRect",
+			"popover",
+			"×",
+			"[0-9]",
+			"tool",
+			"tooltip",
+			"addedComponentContainer",
+			"oppTotal",
+			"resetSubtotal",
+			"lineItem.{{f.key}}",
+			"lineItemFieldset",
+			"describeFieldSet",
+			"getLineItmesForGroup",
+			"pluck",
+			"$scope.panes",
+			"newComponentShouldBeOpen",
+			"static content",
+			"panes",
+			"render",
+			"console.log",
+			"dr",
+			"fname",
+			"toUpdate",
+			"console.log",
+			"itemId",
+			"name__c",
+			"Adap.tv ",
+			"adap.tv",
+			"ng-controller=\"collapsable\"",
+			"componentContainerController",
+			"appliedControllerController",
+			"fields",
+			"ng-cloak",
+			"lineItemController",
+			"dataBus",
+			"ui.bootstrap.modal",
+			"modal",
+			"btn-success",
+			"btn	<apex:includeScript value=\"{!URLFOR($Resource.cs, '/ng/directives/lineItem.js')}\"/>\n	<apex:includeScript value=\"{!URLFOR($Resource.cs, '/ng/directives/lineItem.js')}\"/>\n	<apex:includeScript value=\"{!URLFOR($Resource.cs, '/ng/directives/lineItem.js')}\"/>\n.btn",
+			"btn	<apex:includeScript value=\"{!URLFOR($Resource.cs, '/ng/directives/lineItem.js')}\"/>\n	<apex:includeScript value=\"{!URLFOR($Resource.cs, '/ng/directives/lineItem.js')}\"/>\n	<apex:includeScript value=\"{!URLFOR($Resource.cs, '/ng/directives/lineItem.js')}\"/>\n",
+			"bs-btn",
+			"\"",
+			"remotetk.Client.prototype",
+			"flight",
+			"-flight",
+			"dealbuilder",
+			".btn-mini",
+			".btn",
+			"logger.",
+			"Log.Instance",
+			"^def .*checkout_project",
+			"checkout_project",
+			"logger",
+			"getFullFlightDetails",
+			"\nvoid",
+			"void",
+			"showhide",
+			"leftField",
+			"leftField.api_name",
+			".fieldpath",
+			"[leftField]",
+			"[f]",
+			"f.",
+			"[f]",
+			"f.",
+			"newPlacement",
+			"drawplacementboxandtitle",
+			"AppliedStrategy__c",
+			"right",
+			"popover",
+			"bs-btn",
+			"command-copy",
+			"button",
+			"showhide",
+			"z-index",
+			"AppliedStrategy__c",
+			"placement__c",
+			"notes__",
+			"showhide",
+			"console.log",
+			"e.datepicker.initialized",
+			"$.fn.datepicker"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"fEndDate",
+			"Impressions__c",
+			"Brand__c",
+			"vfr",
+			"label-",
+			"', ",
+			"",
+			"vfr.",
+			".",
+			"vfr",
+			"",
+			"AccountId",
+			"groupId",
+			"current",
+			"property",
+			"key",
+			"row",
+			"incomingFieldJsonObject",
+			"left",
+			"ui-if=",
+			"label: $1",
+			"PlatformLineItem__c",
+			"",
+			"odd.namespacedKey",
+			"lineItemFieldsetString",
+			"//console.log",
+			"describeResult",
+			"fieldToUpdate",
+			"objectToUpdate",
+			"ObjectToUpdate",
+			"//console.log",
+			"containerId",
+			"Adap.tv",
+			"newLineItemFields",
+			"newGroupFields",
+			"btn",
+			"",
+			"this",
+			"group",
+			"-group",
+			"dealBuilder",
+			".bs-btn-mini",
+			".bs-btn",
+			"rightField",
+			"leftFieldName",
+			".api_name",
+			"[leftFieldName]",
+			"[leftField]",
+			"leftField.",
+			"[left]",
+			"left.",
+			"placement__c",
+			"btn",
+			"AppliedFLStrategy__c",
+			"AppliedStrategy__c",
+			"fls.",
+			"obj.",
+			"bs-btn",
+			"addObjAndReturnDetails",
+			"(id incomingId)",
+			"html();",
+			"setDropZones",
+			"",
+			"http://cdn1.iconfinder.com/data/icons/CrystalClear/128x128/actions/decrypted.png",
+			"2013,1,28,11,15",
+			"2013,1,28,11,10",
+			"data",
+			"@data",
+			"\" =>",
+			",\\n",
+			"\\n",
+			"",
+			"\"nil\"",
+			", \\n",
+			"380px",
+			"width:380px",
+			"",
+			">\\n<",
+			"ClientOrgRegistrationExt",
+			"baseUrl",
+			"sidebar_css",
+			"csSidebar",
+			"\\n17:04",
+			"\\n17:02",
+			"\\n16:12",
+			"\\n15:32",
+			"\\n15:28",
+			"\\n15:02",
+			"\\n14:59",
+			"\\n14:53",
+			"\\n14:51",
+			"\\n14:46",
+			"\\n14:43",
+			"\"detailRow\"",
+			"detailRow[",
+			"detailRow",
+			"\"detailColumn\"",
+			"detailColumn.",
+			"",
+			"inputField",
+			"ctlExt",
+			"AgencyGridTemplateBuilderExtension",
+			"ListToSort",
+			"SelectOptionListSort",
+			"20120913",
+			"QuoteExcelExtension_Old",
+			"",
+			", 'a1eW00000000O0a'",
+			"",
+			"\\n",
+			"s67",
+			"s68",
+			"T13:50:03.323",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MavensMate-OutputPanel":
+	{
+		"height": 329.0
+	},
+	"output.exec":
+	{
+		"height": 114.0
+	},
+	"output.git":
+	{
+		"height": 114.0
+	},
+	"project": "dfDemoApp.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"remotetk",
+				"src/classes/RemoteTKController.cls"
+			],
+			[
+				"groupctrl",
+				"resource-bundles/cs.resource/ng/controllers/groupCtrl.js"
+			],
+			[
+				"right",
+				"resource-bundles/cs.resource/ng/controllers/rightSideCtrl.js"
+			],
+			[
+				"xedit",
+				"resource-bundles/cs.resource/ng/directives/xeditable.js"
+			],
+			[
+				"ui",
+				"src/classes/UiObjectTree.cls"
+			],
+			[
+				"config/dep",
+				"config/deploy.rb"
+			],
+			[
+				"cap",
+				"Capfile"
+			],
+			[
+				"gemfil",
+				"Gemfile"
+			],
+			[
+				"fuel_surcharge_hel",
+				"app/helpers/fuel_surcharges_helper.rb"
+			],
+			[
+				"",
+				"config/objects/Account.object"
+			],
+			[
+				"cco_",
+				"src/classes/ccoAPIProxyClass_20120913.cls"
+			],
+			[
+				"templatedout",
+				"src/pages/TemplatedQuoteExcelOutput.page"
+			],
+			[
+				"testagencygridtempl",
+				"src/classes/TestAgencyGridTemplateBuilderExtension.cls"
+			],
+			[
+				"agencygridtemplbuildtest",
+				"src/classes/AgencyGridTemplateBuilderControllerTest.cls"
+			],
+			[
+				"agencygridtemplatebuilderext",
+				"src/classes/AgencyGridTemplateBuilderExtension.cls"
+			],
+			[
+				"templated",
+				"src/pages/TemplatedQuoteExcelOutput.page"
+			],
+			[
+				"agencygridutil",
+				"src/classes/AgencyGridUtil.cls"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 308.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
