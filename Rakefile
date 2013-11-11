@@ -37,24 +37,24 @@ Motion::Project::App.setup do |app|
 	# note that these config options can be specified on a per-environment
 	# basis. app.development = development, non-release
 	# 			 app.release 		 = production, release on app store
-	app.development do
-		# app.identifier =														# app ID from Portal
-		# app.codesign_certificate = 									# string name of codesigning certificate
-		# app.provisioning_profile = 									# .mobileprovision file to use
-		app.entitlements['get-task-allow'] = true			# Allows the Debugger to attach
-	end
+	# app.development do
+	# 	# app.identifier =														# app ID from Portal
+	# 	# app.codesign_certificate = 									# string name of codesigning certificate
+	# 	# app.provisioning_profile = 									# .mobileprovision file to use
+	# 	app.entitlements['get-task-allow'] = true			# Allows the Debugger to attach
+	# end
 
-	app.release do
-		# app.identifier =														# app ID from Portal
-		# app.codesign_certificate = 									# string name of codesigning certificate
-		# app.provisioning_profile = 									# .mobileprovision file to use		
-		app.entitlements['get-task-allow'] = true			# Must be false for release!
-	end
+	# app.release do
+	# 	# app.identifier =														# app ID from Portal
+	# 	# app.codesign_certificate = 									# string name of codesigning certificate
+	# 	# app.provisioning_profile = 									# .mobileprovision file to use		
+	# 	app.entitlements['get-task-allow'] = true			# Must be false for release!
+	# end
 
 	### Entitlements needed for both development and release
-	app.entitlements['keychain-access-groups'] = [
-		app.seed_id + '.' + app.identifier
-	]
+	# app.entitlements['keychain-access-groups'] = [
+	# 	app.seed_id + '.' + app.identifier
+	# ]
 
 	### Additional libraries needed for Salesforce iOS SDK
 	# You can generally add just about any dylib or static .a lib this way
